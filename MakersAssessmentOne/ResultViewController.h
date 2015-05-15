@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ResultViewController.h
 //  MakersAssessmentOne
 //
 //  Created by Mark Porcella on 5/15/15.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ResultViewController : UIViewController
 
+@property NSString *resultFromRootViewController;
 
 @end
-
